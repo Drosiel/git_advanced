@@ -1,0 +1,12 @@
+# 2.1
+/build/*
+*.jar
+!module2.jar
+application-local.properties
+.idea
+.idea_copy
+!.idea_copy/workspace.xml
+
+# 2.2
+/**/build
+!/**/build/module2.jar
